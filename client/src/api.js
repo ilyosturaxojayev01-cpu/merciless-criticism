@@ -1,5 +1,5 @@
 // Backend alohida manzilda bo'lsa: VITE_API_URL=https://sizning-backend.onrender.com
-export const BASE = import.meta.env.VITE_API_URL || '';
+export const BASE = import.meta.env.VITE_API_URL || 'https://merciless-criticism.onrender.com';
 export const src = u => (u ? BASE + u : '');
 
 export const tk = {
